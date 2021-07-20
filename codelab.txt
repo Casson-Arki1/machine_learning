@@ -1,0 +1,21 @@
+1 - Criar uma VM python 3
+
+2 - executar no terminal do jupyterlab:
+
+sudo chown -R jupyter:jupyter /home/jupyter/
+
+3 - apos a pag 3, step 4, rodar no terminal:
+
+pip3 install witwidget
+
+4 - Ativar a API de Modelos do AI Platform
+
+Entrar em modelos e clicar no botao Enable API
+
+5 - Após criar o notebook no jupiter, antes da pag 3, step 5, ativar a interface classica (o whatif nao funciona imediatamente no jupyterlab)
+
+Clicar em help -> run classic notebook
+
+6 - Mudar o create model da pag 6, step 3. Mudar region='global' para:
+
+--regions="us-central1"
